@@ -17,6 +17,8 @@ const puppeteer= require('puppeteer');
         let Object = k[5].innerText;
         let links=document.querySelector('td:nth-child(2) > div > div > div > a').href;
 
+
+
         /* Returning an object filled with data */
         return{
 
